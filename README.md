@@ -1,5 +1,7 @@
 # Ubuntu server hardening, performance and Docker
 
+[Follow the step by step walkthrough with screenshots](WALKTHROUGH.md)
+
 I ran two Ubuntu virtual machines in VirtualBox. I used the desktop VM as my client and logged into the server over SSH. That gave me two views of the same machine. On the server I could see which processes were listening. From the client I could check which ports another machine could actually reach.
 
 ## Reducing the services exposed by the server
